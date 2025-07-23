@@ -60,14 +60,8 @@ poetry install
 
 ### 2.Configure .env (optional).
 
-### 3. Run tests:
+### 3. Chat:
 
 ```bash
-pytest
-```
-
-### 4. Chat:
-
-```bash
-poetry run ollama-gemma-chat chat -p "Tell me a story."
+poetry run ollama-gemma-chat chat -p 'Tell me a story.'
 ```
