@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ollama-gemma-chat"
+version = "0.1.0"
+description = "CLI & Python library to chat with gemma via Ollama"
+authors = ["ChinnaphatLoha"]
+license = "MIT"
+packages = [
+  { include = "gemma_chat", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0"
+python-dotenv = "^1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ollama-gemma-chat = "gemma_chat.cli:cli"
