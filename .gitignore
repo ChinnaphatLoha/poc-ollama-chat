@@ -20,6 +20,7 @@ poetry.toml
 # dotenv / local config
 .env
 .env.*
+!.env.example
 
 # Test cache / coverage
 .pytest_cache/

@@ -24,10 +24,10 @@ Once installed (poetry install) and configured, use:
 
 ```bash
 # Interactive prompt flag
-poetry run ollama-gemma-chat chat -p 'Hello, Gemma!'
+poetry run start chat -p 'Hello, Gemma!'
 
 # Without prompt flag (will ask interactively)
-poetry run ollama-gemma-chat chat
+poetry run start chat
 ```
 
 Options:
@@ -63,5 +63,5 @@ poetry install
 ### 3. Chat:
 
 ```bash
-poetry run ollama-gemma-chat chat -p 'Tell me a story.'
+poetry run start chat -p 'Tell me a story.'
 ```

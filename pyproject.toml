@@ -18,4 +18,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-ollama-gemma-chat = "gemma_chat.cli:cli"
+start = "gemma_chat.cli:cli"
