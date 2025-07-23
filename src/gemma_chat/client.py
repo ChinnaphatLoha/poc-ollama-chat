@@ -1,5 +1,4 @@
 import subprocess
-from typing import Optional
 
 
 class OllamaClient:
